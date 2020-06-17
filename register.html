@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Engineering College</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/img/favicon-16x16.png">
+    <link rel="manifest" href="img/img/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/proj.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!--NAVIGATION-->
+        <div class="logo">
+            <img src="images/collegelogo.jpg" class="img" alt="logo">
+            <h1 id="city">CITY ENGINEERING COLLEGE</h1>
+        </div>
+        <nav>
+            <ul>
+
+                <li id="home"><a href="index.html">HOME</a></li>
+                <li id="register"><a href="register.html">REGISTER</a></li>
+                <li id="register"><a href="courses.html">COURSES</a></li>
+                <li id="register"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!--END OF NAVIGATION-->
+
+        <div id="rdiv1">
+            <div id="rdivc1">
+                <h1>REGISTER</h1>
+                <form id="regForm">
+                    <div class="fromreg">
+                        <label>
+                    Name:
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </label>
+                    </div>
+                    <div class="fromreg">
+                        <label>
+                    Email:
+                    <input type="email" name="name" placeholder="abc@gmail.com" required>
+                </label>
+                    </div>
+                    <div class="fromreg">
+                        <label>Course:</label>
+                        <select>
+                    <option value="volvo">Computer Science</option>
+                     <option value="saab">Electrical</option>
+                     <option value="mercedes">Mechanical</option>
+                </select>
+                    </div>
+                    <div class="fromreg">
+
+                        <a href="register.html"><button class="btn-2" onclick="myFunction()">Submit</button></a>
+
+                    </div>
+                </form>
+                <script>
+                    function myFunction() {
+                        document.getElementById("regForm").reset();
+                    }
+                </script>
+
+
+            </div>
+            <div id="rdivc2">
+                <h1>GUIDENCE</h1>
+                <ul class="points2">
+                    <li id="guide">Enter the Name in given textarea as per your adharcard name.</li>
+                    <li id="guide">Enter a valid E-mail id.</li>
+                    <li id="guide">Select the course that you are interested.</li>
+                    <li id="guide">Click on Submit button after filling above details correctly.</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<footer>
+    <div class="icons">
+        <a id="icons" href="#" class="fa fa-facebook"></a>
+        <a id="icons" href="#" class="fa fa-twitter"></a>
+        <a id="icons" href="#" class="fa fa-linkedin"></a>
+        <a id="icons" href="mailto:abc@gmail.com?subject = Feedback&body = Message" class="fa fa-envelope"></a>
+
+    </div>
+
+    <h6 id="copy">&copy;VidhyadharJoshi</h6>
+
+</footer>
